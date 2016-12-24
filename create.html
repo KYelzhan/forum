@@ -1,0 +1,106 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="create.css" rel="stylesheet" type="text/css">
+    </head><body ng-app="">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>САЙТ</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Публикации</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Новый пост</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col-md-12">
+                            <h2 class="text-muted">Новый пост</h2>
+                            <div class="well">
+                                <div class="form-group">
+                                    <label>Заголовок</label>
+                                    <input type="text" class="form-control" placeholder="Заголовок">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+                                <textarea class="form-control" rows="5" placeholder="Введите текст"></textarea>
+                                <br>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="well">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Авторизация</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Регистрация</a>
+                                </li>
+                            </ul>
+                            <br>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Логин">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Пароль">
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Войти</button>
+                                    </form>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Логин</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Пароль</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                        <button type="submit" class="btn btn-block btn-primary">Зарегистрироваться</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-block btn-lg btn-primary"><i class="fa fa-fw fa-plus"></i>Добавить пост</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</body></html>
